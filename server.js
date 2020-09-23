@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 // Middleware
-app.use(helmet());
+// app.use(helmet());
 app.use(compression());
 app.use(express.static("public"));
 
