@@ -1,7 +1,7 @@
 "use strict";
 
 // Make connection
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://apcurran-socketio-chat.herokuapp.com/");
 
 const message = document.getElementById("message");
 const handle = document.getElementById("handle");
