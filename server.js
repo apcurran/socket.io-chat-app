@@ -2,14 +2,12 @@
 
 const express = require("express");
 const socket = require("socket.io");
-const helmet = require("helmet");
 const compression = require("compression");
 const PORT = process.env.PORT || 5000;
 
 const app = express();
 
 // Middleware
-app.use(helmet());
 app.use(compression());
 app.use(express.static("public"));
 
