@@ -1,6 +1,6 @@
 # Real-Time Chat App (Socket.IO)
 
-[View Chat App](https://apcurran-chat-app.glitch.me/)
+[View Chat App](https://apcurran-chat.glitch.me/)
 
 ## Features:
 
