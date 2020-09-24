@@ -7,3 +7,5 @@
 * Socket.IO library for integrating WebSockets
 
 * Express framework for back-end
+
+* Glitch hosting
