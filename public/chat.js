@@ -17,6 +17,8 @@ chatForm.addEventListener("submit", (event) => {
         message: message.value,
         handle: handle.value
     });
+
+    clearInputText(message);
 });
 
 message.addEventListener("keypress", () => {
@@ -53,8 +55,13 @@ socket.on("typing", (data) => {
     feedback.append(paraEl);
 });
 
+// Helper funcs
 function removeAllChildEls(parentEl) {
     while (parentEl.firstChild) {
         parentEl.removeChild(parentEl.firstChild);
     }
+}
+
+function clearInputText(input) {
+    input.value = "";
 }
